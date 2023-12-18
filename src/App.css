@@ -1,0 +1,68 @@
+*,
+*:after,
+*:before,
+a,
+button,
+canvas,
+g,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+image,
+img,
+input,
+li,
+p,
+path,
+svg,
+ul,
+textarea {
+  border: none;
+  box-sizing: border-box;
+  cursor: default;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  position: relative;
+  outline: none;
+}
+
+input {
+  cursor: text;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+input::-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+html,
+body,
+textarea {
+  font-family: 'Aktiv-Grotesk', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-smooth: always;
+  overflow: hidden;
+}
+
+@-moz-document url-prefix() {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfixleft {
+  clear: left;
+}

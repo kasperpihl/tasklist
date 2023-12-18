@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "jsx": "react",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "src": ["./src"]
+    }
+  },
+  "include": ["src/**/*", "declarations.d.ts"]
+}
